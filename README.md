@@ -17,23 +17,7 @@ This project implements a machine learning pipeline for detecting faults in sens
 - Visualization: matplotlib, seaborn
 - Model Persistence: pickle / joblib
 - Deployment: Flask / FastAPI (if enabled)
-
-## Project Structure
-Sensor-Fault-Detection/
-│-- data/                # Raw and processed data
-│-- notebooks/           # Jupyter notebooks for exploration and experiments
-│-- src/                 # Source code for data processing and modeling
-│   │-- data_ingestion.py
-│   │-- data_preprocessing.py
-│   │-- model_trainer.py
-│   │-- model_evaluation.py
-│   │-- prediction_pipeline.py
-│-- saved_models/        # Serialized models for reuse
-│-- logs/                # Log files for traceability
-│-- requirements.txt     # Python dependencies
-│-- app.py               # Flask/FastAPI app for deployment (if enabled)
-│-- README.md            # Project documentation
-
+  
 ## Installation and Setup
 1. Clone the repository  
    git clone https://github.com/vviiishu/Sensor-Fault-Detection.git  
